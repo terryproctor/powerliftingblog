@@ -1,8 +1,45 @@
 body {
     background-color: #333131;
     color: #ffffff;
+    margin: 0px;
 }
 
 a {
     color: #e05a5a;
 }
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 44px;
+    
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: #f34747;
+    margin: 0px;
+    text-align: center;
+    padding:10px;
+}
+
+main {
+    padding: 7px;
+    margin: 3px;
+    margin-left: 10px;
+    max-width: 95%;
+}
+
+footer {
+    background-color: #0a7777;
+    padding: 5px;
+}
+
