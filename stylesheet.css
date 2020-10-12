@@ -71,3 +71,7 @@ footer {
     overflow: hidden;
 }
 
+footer p {
+    margin: 5px 30px 0px auto;
+    text-align: end;
+}
