@@ -8,6 +8,7 @@ body {
 a {
     color: #fff;
     text-decoration: none;
+    font-size: 24px;
 }
 
 h1{
@@ -25,6 +26,30 @@ h3 {
     font-size: 32px;
     margin-top: 10px;
 }
+
+p {
+    font-size: 22px;
+}
+
+article {
+   width: 70%;
+   margin-left: auto;
+}
+
+.blogpost {
+    width: 100%;
+    display:flex;
+    
+}
+
+.blogthumb {
+    max-height: 200px;
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;    
+    padding: 5%;
+}
+
 
 header {
     background-color: #f34747;
