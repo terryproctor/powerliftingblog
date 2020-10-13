@@ -61,16 +61,7 @@ article {
     
 }
 
-@media all and (orientation: portrait) { 
-    .blogthumb {
-    display: none;
-    }
-    article {
-        margin: 20px;
-        width: 95%
-    }
-    
-}
+
 
 header {
     background-color: #f34747;
@@ -130,7 +121,7 @@ nav a:hover {
     }
 }
 
-@media all and (orientation: portrait) {
+@media screen and (orientation: portrait) and (min-width: 400px) {
     nav ul {
         display: block;
         border-top: rgb(247, 111, 111) solid 1px;
@@ -156,6 +147,14 @@ nav a:hover {
         font-size: 40px;
         
     }
+
+    .blogthumb {
+        display: none;
+        }
+        article {
+            margin: 20px;
+            width: 95%
+        }
 }
 
 
