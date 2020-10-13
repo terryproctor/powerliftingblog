@@ -38,7 +38,7 @@ article {
 .blogpost {
     width: 100%;
     display:flex;
-    
+    padding-left: 3%;
 }
 
 .blogthumb {
@@ -58,6 +58,7 @@ article {
         margin: 20px;
         width: 95%
     }
+    
 }
 
 header {
@@ -102,6 +103,19 @@ nav a:hover {
     }
     nav ul li {
         border-bottom: rgb(247, 111, 111) solid 1px;
+    }
+    
+    .blogpost {
+        margin:0;
+        padding-left: 0; 
+    }
+
+    main {
+        margin-left: 0;
+    }
+
+    footer {
+        display: none;
     }
 }
 
