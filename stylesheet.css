@@ -1,8 +1,7 @@
 body {
     background-color: #333131;
     color: #fff;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 a {
@@ -18,8 +17,7 @@ h1, h2, h3 {
 h1{
     margin-top: 0px;
     margin-bottom: 5px;
-    font-size: 44px;
-    
+    font-size: 44px; 
 }
 
 h2 {
@@ -32,7 +30,8 @@ h3 {
 }
 
 p {
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 article {
@@ -52,7 +51,6 @@ article {
     margin-top: auto;
     margin-bottom: auto;    
     padding: 5px 5%;
-
 }
 
 @media all and (max-width: 600px) { 
@@ -63,10 +61,7 @@ article {
         margin: 20px;
         width: 95%
     }
-    
 }
-
-
 
 header {
     background-color: #f34747;
@@ -149,7 +144,7 @@ nav a:hover {
     }
 
     a {
-        font-size: 40px;
+        font-size: 28px;
         
     }
 
@@ -166,9 +161,10 @@ nav a:hover {
 main {
     padding: 7px;
     margin: 3px;
-    margin-left: 10px;
+    margin-left: 5px;
     max-width: 95%;
     margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 footer {
