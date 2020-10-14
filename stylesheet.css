@@ -184,6 +184,7 @@ footer p {
     font-size: 18px;
 }
 
+/* keep text centered with no image to right on about page */
 .about-me {
     margin-right: auto;
 }
