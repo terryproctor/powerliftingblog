@@ -170,7 +170,7 @@ main {
 footer {
     background-color: #0a7777;
     padding: 5px;
-    padding-bottom: 7px;
+    padding-bottom: 15px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -188,3 +188,4 @@ footer p {
 .about-me {
     margin-right: auto;
 }
+
