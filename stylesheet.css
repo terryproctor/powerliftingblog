@@ -29,6 +29,10 @@ h3 {
     margin-top: 10px;
 }
 
+h4 {
+    font-size: 30px;
+}
+
 p {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -164,7 +168,7 @@ main {
     margin-left: 5px;
     max-width: 95%;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -189,3 +193,14 @@ footer p {
     margin-right: auto;
 }
 
+.stats {
+    margin-left:15px;
+    font-size: 28px;
+    padding: 5px;
+}
+
+table {
+    width: 40%;
+    margin: 6px 10px;
+    text-align: center;
+}
