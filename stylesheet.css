@@ -203,4 +203,11 @@ table {
     width: 40%;
     margin: 6px 10px;
     text-align: center;
+    padding: 5px;
+}
+
+table th, td{
+    margin-right: 3px;
+    text-align: left;
+    padding: 5px;
 }
