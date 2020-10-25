@@ -6,7 +6,7 @@ function PBs (weight = 81.5, bench, squat, deadlift) {
     this.deadlift = deadlift;
 }
 
-let latestPBs = new PBs (
+let latestPBs = new PBs(
     weight=81.5, bench=89.8, squat=170.6, deadlift=197.3);
 
 let elWeight = document.getElementById("weight");
@@ -17,4 +17,7 @@ elBP.textContent = `${latestPBs.bench}kg`;
 let elSQ = document.getElementById("squatPB");
 elSQ.textContent = `${latestPBs.squat}kg`;
 let elDL = document.getElementById("deadliftPB");
-elDL.textContent = `${latestPB.s}kg`;
+elDL.textContent = `${latestPBs.deadlift}kg`;
+
+day = new Date()
+console.log(day.toDateString());
