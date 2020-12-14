@@ -171,6 +171,14 @@ main {
     margin-bottom: 50px;
 }
 
+main li, ol, ul {
+    font-size: 20px
+}
+
+main ul {
+    padding-bottom: 10px;
+}
+
 footer {
     background-color: #0a7777;
     padding: 5px;
